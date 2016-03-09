@@ -1,5 +1,5 @@
 <launch>
 
-  <node name="creation" pkg="qrcodepackage" type="qrQreator.py" output="screen" />  
+  <node name="creation" pkg="qrcodepackage" type="qrCreator.py" output="screen" />  
 
 </launch>

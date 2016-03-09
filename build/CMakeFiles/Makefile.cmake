@@ -12,8 +12,11 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/order_packages.cmake"
+  "newfakepackage/catkin_generated/package.cmake"
   "qrcodepackage/catkin_generated/package.cmake"
   "/home/xy/PROG/testing/ros/alvarTest/src/CMakeLists.txt"
+  "/home/xy/PROG/testing/ros/alvarTest/src/newfakepackage/CMakeLists.txt"
+  "/home/xy/PROG/testing/ros/alvarTest/src/newfakepackage/package.xml"
   "/home/xy/PROG/testing/ros/alvarTest/src/qrcodepackage/CMakeLists.txt"
   "/home/xy/PROG/testing/ros/alvarTest/src/qrcodepackage/package.xml"
   "/opt/ros/jade/share/catkin/cmake/../package.xml"
@@ -117,6 +120,7 @@ SET(CMAKE_MAKEFILE_PRODUCTS
   "catkin_generated/stamps/Project/order_packages.cmake.em.stamp"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "newfakepackage/CMakeFiles/CMakeDirectoryInformation.cmake"
   "qrcodepackage/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -130,5 +134,5 @@ SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/tests.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
+  "newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   )

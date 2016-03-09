@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "newfakepackage")
+set(newfakepackage_MAINTAINER "xy <xy@todo.todo>")
+set(newfakepackage_DEPRECATED "")
+set(newfakepackage_VERSION "0.0.0")
+set(newfakepackage_BUILD_DEPENDS )
+set(newfakepackage_RUN_DEPENDS )
+set(newfakepackage_BUILDTOOL_DEPENDS "catkin")

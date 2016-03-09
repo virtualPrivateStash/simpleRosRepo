@@ -283,6 +283,12 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Value Computed by CMake
+newfakepackage_BINARY_DIR:STATIC=/home/xy/PROG/testing/ros/alvarTest/build/newfakepackage
+
+//Value Computed by CMake
+newfakepackage_SOURCE_DIR:STATIC=/home/xy/PROG/testing/ros/alvarTest/src/newfakepackage
+
+//Value Computed by CMake
 qrCodePackage_BINARY_DIR:STATIC=/home/xy/PROG/testing/ros/alvarTest/build/qrcodepackage
 
 //Value Computed by CMake
@@ -396,7 +402,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=3
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

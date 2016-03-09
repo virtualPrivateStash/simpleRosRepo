@@ -317,6 +317,52 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory newfakepackage
+
+# Convenience name for "all" pass in the directory.
+newfakepackage/all:
+.PHONY : newfakepackage/all
+
+# Convenience name for "clean" pass in the directory.
+newfakepackage/clean: newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : newfakepackage/clean
+
+# Convenience name for "preinstall" pass in the directory.
+newfakepackage/preinstall:
+.PHONY : newfakepackage/preinstall
+
+#=============================================================================
+# Target rules for target newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir
+
+# All Build rule for target.
+newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/build.make newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/build.make newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles 
+	@echo "Built target _catkin_empty_exported_target"
+.PHONY : newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/all
+
+# Build rule for subdir invocation for target.
+newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles 0
+.PHONY : newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+# Convenience name for target.
+_catkin_empty_exported_target: newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : _catkin_empty_exported_target
+
+# clean rule for target.
+newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/build.make newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+# clean rule for target.
+clean: newfakepackage/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory qrcodepackage
 
 # Convenience name for "all" pass in the directory.
@@ -324,43 +370,12 @@ qrcodepackage/all:
 .PHONY : qrcodepackage/all
 
 # Convenience name for "clean" pass in the directory.
-qrcodepackage/clean: qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/clean
+qrcodepackage/clean:
 .PHONY : qrcodepackage/clean
 
 # Convenience name for "preinstall" pass in the directory.
 qrcodepackage/preinstall:
 .PHONY : qrcodepackage/preinstall
-
-#=============================================================================
-# Target rules for target qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir
-
-# All Build rule for target.
-qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/build.make qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/build.make qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles 
-	@echo "Built target _catkin_empty_exported_target"
-.PHONY : qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/all
-
-# Build rule for subdir invocation for target.
-qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles 0
-.PHONY : qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : _catkin_empty_exported_target
-
-# clean rule for target.
-qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/build.make qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/clean
-
-# clean rule for target.
-clean: qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
