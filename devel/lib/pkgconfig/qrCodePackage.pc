@@ -1,0 +1,8 @@
+prefix=/home/xy/PROG/testing/ros/alvarTest/devel
+
+Name: qrCodePackage
+Description: Description of qrCodePackage
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xy/PROG/testing/ros/alvarTest/devel/lib 
+Requires: 

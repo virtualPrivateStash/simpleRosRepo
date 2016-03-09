@@ -1,0 +1,9 @@
+/home/xy/PROG/testing/ros/alvarTest/build/qrcodepackage/CMakeFiles/_catkin_empty_exported_target.dir
+/home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles/clean_test_results.dir
+/home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles/clean_test_results_Project.dir
+/home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles/download_extra_data.dir
+/home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles/doxygen.dir
+/home/xy/PROG/testing/ros/alvarTest/build/gtest/CMakeFiles/gtest.dir
+/home/xy/PROG/testing/ros/alvarTest/build/gtest/CMakeFiles/gtest_main.dir
+/home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles/run_tests.dir
+/home/xy/PROG/testing/ros/alvarTest/build/CMakeFiles/tests.dir

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "qrcodepackage")
+set(qrcodepackage_MAINTAINER "xy <xy@todo.todo>")
+set(qrcodepackage_DEPRECATED "")
+set(qrcodepackage_VERSION "0.0.0")
+set(qrcodepackage_BUILD_DEPENDS )
+set(qrcodepackage_RUN_DEPENDS )
+set(qrcodepackage_BUILDTOOL_DEPENDS "catkin")
