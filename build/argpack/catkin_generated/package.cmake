@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "argpack")
+set(argpack_MAINTAINER "xy <xy@todo.todo>")
+set(argpack_DEPRECATED "")
+set(argpack_VERSION "0.0.0")
+set(argpack_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(argpack_RUN_DEPENDS "roscpp" "rospy" "std_msgs" "v4l-utils")
+set(argpack_BUILDTOOL_DEPENDS "catkin")

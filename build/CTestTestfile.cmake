@@ -7,3 +7,4 @@
 SUBDIRS(gtest)
 SUBDIRS(newfakepackage)
 SUBDIRS(qrcodepackage)
+SUBDIRS(argpack)

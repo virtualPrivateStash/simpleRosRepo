@@ -10,11 +10,14 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/2.8.12.2/CMakeCCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
+  "argpack/catkin_generated/package.cmake"
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/order_packages.cmake"
   "newfakepackage/catkin_generated/package.cmake"
   "qrcodepackage/catkin_generated/package.cmake"
   "/home/xy/PROG/testing/ros/alvarTest/src/CMakeLists.txt"
+  "/home/xy/PROG/testing/ros/alvarTest/src/argpack/CMakeLists.txt"
+  "/home/xy/PROG/testing/ros/alvarTest/src/argpack/package.xml"
   "/home/xy/PROG/testing/ros/alvarTest/src/newfakepackage/CMakeLists.txt"
   "/home/xy/PROG/testing/ros/alvarTest/src/newfakepackage/package.xml"
   "/home/xy/PROG/testing/ros/alvarTest/src/qrcodepackage/CMakeLists.txt"
@@ -122,6 +125,7 @@ SET(CMAKE_MAKEFILE_PRODUCTS
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "newfakepackage/CMakeFiles/CMakeDirectoryInformation.cmake"
   "qrcodepackage/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "argpack/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

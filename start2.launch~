@@ -1,8 +1,10 @@
 <launch>
 
 
-  <node name="fakePrintNode" pkg="newfakepackage" type="fake.py" output="screen" />  
-
+  <node name="Fakeprintnode" pkg="newfakepackage" type="fake.py" output="screen" />  
+<!-- 
+	<node name="OrdnerVorPy-Datei" pkg="packagename" type="nameDerPython-Datei" output="screen" />  
+-->
 
   <node name="creation" pkg="qrcodepackage" type="qrCreator.py" output="screen" />  
 

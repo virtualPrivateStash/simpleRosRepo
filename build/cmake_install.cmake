@@ -119,6 +119,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/xy/PROG/testing/ros/alvarTest/build/gtest/cmake_install.cmake")
   INCLUDE("/home/xy/PROG/testing/ros/alvarTest/build/newfakepackage/cmake_install.cmake")
   INCLUDE("/home/xy/PROG/testing/ros/alvarTest/build/qrcodepackage/cmake_install.cmake")
+  INCLUDE("/home/xy/PROG/testing/ros/alvarTest/build/argpack/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

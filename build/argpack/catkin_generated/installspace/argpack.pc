@@ -1,0 +1,8 @@
+prefix=/home/xy/PROG/testing/ros/alvarTest/install
+
+Name: argpack
+Description: Description of argpack
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xy/PROG/testing/ros/alvarTest/install/lib 
+Requires: 

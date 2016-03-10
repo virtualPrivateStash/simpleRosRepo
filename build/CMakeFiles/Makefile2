@@ -378,6 +378,21 @@ qrcodepackage/preinstall:
 .PHONY : qrcodepackage/preinstall
 
 #=============================================================================
+# Directory level rules for directory argpack
+
+# Convenience name for "all" pass in the directory.
+argpack/all:
+.PHONY : argpack/all
+
+# Convenience name for "clean" pass in the directory.
+argpack/clean:
+.PHONY : argpack/clean
+
+# Convenience name for "preinstall" pass in the directory.
+argpack/preinstall:
+.PHONY : argpack/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

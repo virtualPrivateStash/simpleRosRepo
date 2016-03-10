@@ -1,2 +1,2 @@
-newfakepackage:qrcodepackage
+argpack:newfakepackage:qrcodepackage
 -DCATKIN_DEVEL_PREFIX=/home/xy/PROG/testing/ros/alvarTest/devel -DCMAKE_INSTALL_PREFIX=/home/xy/PROG/testing/ros/alvarTest/install -G Unix Makefiles
